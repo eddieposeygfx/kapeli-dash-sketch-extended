@@ -277,514 +277,526 @@
 
 
 
-	<h1 class="reference-head" style="max-width: 960px; margin: 0 auto; padding-top: 2rem; text-align: center;">Sketch</h1>
+	<style>
+		.title {
+			max-width: 1400px;
+			margin: 0 auto;
+			padding-top: 2rem;
+			text-align: center;
+		}
+		.grid-adjust {
+			display: block;
+			margin: 0 auto;
+			max-width: 960px;
+			padding: 0 2rem;
+		}
+		.row {
+			display: flex;
+			justify-content: space-between;
+			border-bottom: 1px solid rgba(0,0,0,0.05);
+			align-items: center;
+			width: 100%;
+			position: relative;
+			height: 61px;
+		}
+		.reference-head {
+			font-weight: 700;
+			border-bottom: 1px solid rgba(0,0,0,0.05);
+			padding: 0.6rem 0;
+			margin-top: 2.5rem;
+		}
+		.command {
+			margin-bottom: 0;
+			position: absolute;
+			left: 0;
+		}
+		.commandcopy {
+			font-weight: 300;
+			margin-bottom: 0;
+			position: absolute;
+			right: 0;
+		}
+	</style>
+
+	<h1 class="reference-head title">Sketch</h1>
 
 	<main role="main" class="vertical-section-padding" style="padding-top: 2rem;">
-	<div class="container grid" style="display: block; margin: 0 auto; max-width: 960px; padding: 0 2rem;">
+	<div class="container grid grid-adjust">
 		<div class="col-lg-8 basic-layout-col-1of2">
-				<div>
+			<div>
 
-		<table class="reference">
-	<tbody>
-		<tr>
-			<td class="reference-head" colspan="2">Insert</td>
-		</tr>
-		<tr>
-			<td width="22">A</td>
-			<td>Artboard</td>
-		</tr>
-		<tr>
-			<td width="22">S</td>
-			<td>Slice</td>
-		</tr>
-		<tr>
-			<td width="22">T</td>
-			<td>Text</td>
-		</tr>
-		<tr>
-			<td width="22">L</td>
-			<td>Line</td>
-		</tr>
-		<tr>
-			<td width="22">R</td>
-			<td>Rectangle</td>
-		</tr>
-		<tr>
-			<td width="22">O</td>
-			<td>Oval</td>
-		</tr>
-		<tr>
-			<td width="22">U</td>
-			<td>Rounded Rectangle</td>
-		</tr>
-		<tr>
-			<td width="22">V</td>
-			<td>Vector</td>
-		</tr>
-		<tr>
-			<td width="22">P</td>
-			<td>Pencil</td>
-		</tr>
-	</tbody>
-</table>
 
-<table class="reference">
-	<tbody>
-		<tr>
-			<td class="reference-head" colspan="2">Zoom &amp; Viewing Canvas</td>
-		</tr>
-		<tr>
-			<td width="300">Zoom In</td>
-			<td>Cmd&ndash;Plus(+)</td>
-		</tr>
-		<tr>
-			<td width="300">Zoom Out</td>
-			<td>Cmd&ndash;Minus(&ndash;)</td>
-		</tr>
-		<tr>
-			<td width="300">Zoom In</td>
-			<td>Hold Z &amp; Click (or Drag a box to zoom into an area)</td>
-		</tr>
-		<tr>
-			<td width="300">Zoom Out</td>
-			<td>Hold Option&ndash;Z &amp; Click</td>
-		</tr>
-		<tr>
-			<td width="300">Zoom to Actual Size (100%)</td>
-			<td>Cmd&ndash;0</td>
-		</tr>
-		<tr>
-			<td width="300">Temporary Zoom to Actual Size (100%)</td>
-			<td>U.S. Keyboard: Hold Shift&ndash;Tilde(~)<br />
-			International Keyboard: Hold &sect;</td>
-		</tr>
-		<tr>
-			<td width="300">Zoom to Fit Canvas</td>
-			<td>Cmd&ndash;1</td>
-		</tr>
-		<tr>
-			<td width="300">Zoom to Selection</td>
-			<td>Cmd&ndash;2</td>
-		</tr>
-		<tr>
-			<td width="300">Center Selection (on the Screen)</td>
-			<td>Cmd&ndash;3</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Interface &amp; Viewing Options</td>
-		</tr>
-		<tr>
-			<td width="300">Scroll Around Canvas (Hand tool)</td>
-			<td>Hold Spacebar &amp; Drag on Canvas</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Layer List (panel on left of window)</td>
-			<td>Cmd&ndash;Option&ndash;1</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Inspector (panel on right of window)</td>
-			<td>Cmd&ndash;Option&ndash;2</td>
-		</tr>
-		<tr>
-			<td width="300">Hide Interface</td>
-			<td>Cmd&ndash;Period(.)</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Toolbar</td>
-			<td>Cmd&ndash;Option&ndash;T</td>
-		</tr>
-		<tr>
-			<td width="300">Focus on the First Input Field in Inspector panel</td>
-			<td>Option&ndash;Tab</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Rulers</td>
-			<td>Ctrl&ndash;R</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Layout (Column Grid)</td>
-			<td>Ctrl&ndash;L</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Grid</td>
-			<td>Ctrl&ndash;G</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Pixels on Zoom</td>
-			<td>Ctrl&ndash;P</td>
-		</tr>
-		<tr>
-			<td width="300">Show/Hide Pixel Grid on Zoom</td>
-			<td>Ctrl&ndash;X</td>
-		</tr>
-		<tr>
-			<td width="300">Fullscreen Mode</td>
-			<td>Cmd&ndash;Ctrl&ndash;F</td>
-		</tr>
-		<tr>
-			<td width="300">Switch between Windows/Files</td>
-			<td>Cmd&ndash;Tilde(~)</td>
-		</tr>
-		<tr>
-			<td width="300">Inspector Fields: Increase or Decrease by 1</td>
-			<td>Up or Down Arrow</td>
-		</tr>
-		<tr>
-			<td width="300">Inspector Fields: Increase or Decrease by 10</td>
-			<td>Shift&ndash;Up or Down Arrow</td>
-		</tr>
-		<tr>
-			<td width="300">Inspector Fields: Increase or Decrease by 0.1</td>
-			<td>Option&ndash;Up or Down Arrow</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Type</td>
-		</tr>
-		<tr>
-			<td width="300">Start Editing Selected Text</td>
-			<td>Return</td>
-		</tr>
-		<tr>
-			<td width="300">Stop Editing Selected Text</td>
-			<td>Esc</td>
-		</tr>
-		<tr>
-			<td width="300">Make Type Bigger (Increase Font Size)</td>
-			<td>Cmd&ndash;Option&ndash;Plus(+)</td>
-		</tr>
-		<tr>
-			<td width="300">Make Type Smaller (Decrease Font Size)</td>
-			<td>Cmd&ndash;Option&ndash;Minus(&ndash;)</td>
-		</tr>
-		<tr>
-			<td width="300">Loosen Kerning/Tracking (Increase Character Spacing)</td>
-			<td>Ctrl&ndash;Option&ndash;L</td>
-		</tr>
-		<tr>
-			<td width="300">Tighten Kerning/Tracking (Decrease Character Spacing)</td>
-			<td>Ctrl&ndash;Option&ndash;T</td>
-		</tr>
-		<tr>
-			<td width="300">Change Font (Open Font Menu)</td>
-			<td>Cmt&ndash;T</td>
-		</tr>
-		<tr>
-			<td width="300">Align Left</td>
-			<td>Cmd&ndash;Shift&ndash;{</td>
-		</tr>
-		<tr>
-			<td width="300">Align Right</td>
-			<td>Cmd&ndash;Shift&ndash;}</td>
-		</tr>
-		<tr>
-			<td width="300">Align Center</td>
-			<td>Cmd&ndash;Shift&ndash;Pipe(|)</td>
-		</tr>
-		<tr>
-			<td width="300">Bold</td>
-			<td>Cmd&ndash;B</td>
-		</tr>
-		<tr>
-			<td width="300">Italic</td>
-			<td>Cmd&ndash;I</td>
-		</tr>
-		<tr>
-			<td width="300">Underline</td>
-			<td>Cmd&ndash;U</td>
-		</tr>
-		<tr>
-			<td width="300">Convert Text to Outlines</td>
-			<td>Cmd&ndash;Shift&ndash;O</td>
-		</tr>
-		<tr>
-			<td width="300">Open Emoji &amp; Symbols (Special Characters) Panel</td>
-			<td>Cmd&ndash;Ctrl&ndash;Space</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Styling Layers (Objects)</td>
-		</tr>
-		<tr>
-			<td width="300">Copy Style</td>
-			<td>Cmd&ndash;Option&ndash;C</td>
-		</tr>
-		<tr>
-			<td width="300">Paste Style</td>
-			<td>Cmd&ndash;Option&ndash;V</td>
-		</tr>
-		<tr>
-			<td width="300">Sync Shared Style</td>
-			<td>Ctrl&ndash;S</td>
-		</tr>
-		<tr>
-			<td width="300">Reset Shared Style</td>
-			<td>Ctrl&ndash;Option&ndash;S</td>
-		</tr>
-		<tr>
-			<td width="300">Remove Fills, Borders, or Shadows</td>
-			<td>Drag Off the Inspector &amp; Release</td>
-		</tr>
-		<tr>
-			<td width="300">Toggle Fills On/Off</td>
-			<td>F</td>
-		</tr>
-		<tr>
-			<td width="300">Toggle Borders On/Off</td>
-			<td>B</td>
-		</tr>
-		<tr>
-			<td width="300">Pick Color</td>
-			<td>Ctrl&ndash;C</td>
-		</tr>
-		<tr>
-			<td width="300">Change Layer Opacity</td>
-			<td>1 to 9 (and 0 for 100%)</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Layers (Objects), Groups, Artboards, &amp; Pages</td>
-		</tr>
-		<tr>
-			<td width="300">Directly Select a Layer in a Group</td>
-			<td>Cmd&ndash;Click Layer in Canvas</td>
-		</tr>
-		<tr>
-			<td width="300">Select Layer under the Topmost Object</td>
-			<td>Hold Option, Mouse Over, &amp; Click</td>
-		</tr>
-		<tr>
-			<td width="300">Select Only Layers that Lie Entirely within the Selection Rectangle</td>
-			<td>Option&ndash;Drag</td>
-		</tr>
-		<tr>
-			<td width="300">Move Selected Item without Selecting Item Above</td>
-			<td>Cmd&ndash;Option&ndash;Drag Selected Item</td>
-		</tr>
-		<tr>
-			<td width="300">Hide/Show Layer</td>
-			<td>Cmd&ndash;Shift&ndash;H</td>
-		</tr>
-		<tr>
-			<td width="300">Lock/Unlock Layer</td>
-			<td>Cmd&ndash;Shift&ndash;L</td>
-		</tr>
-		<tr>
-			<td width="300">Lock/Unlock Layer</td>
-			<td>Mouse over Layer List, Hold Option, &amp; Click Lock</td>
-		</tr>
-		<tr>
-			<td width="300">Rename Selected Layer/Artboard</td>
-			<td>Cmd&ndash;R</td>
-		</tr>
-		<tr>
-			<td width="300">Select Layer Below (in current group)</td>
-			<td>Tab</td>
-		</tr>
-		<tr>
-			<td width="300">Select Layer Above (in current group)</td>
-			<td>Shift&ndash;Tab</td>
-		</tr>
-		<tr>
-			<td width="300">Select Parent Artboard</td>
-			<td>Esc (hit again to selection nothing)</td>
-		</tr>
-		<tr>
-			<td width="300">Filter in Layer List (Find a Layer by Name)</td>
-			<td>Cmd&ndash;F</td>
-		</tr>
-		<tr>
-			<td width="300">Use Layer as Mask</td>
-			<td>Cmd&ndash;Ctrl&ndash;M</td>
-		</tr>
-		<tr>
-			<td width="300">Group Layers</td>
-			<td>Cmd&ndash;G</td>
-		</tr>
-		<tr>
-			<td width="300">Ungroup Layers</td>
-			<td>Cmd&ndash;Shift&ndash;G</td>
-		</tr>
-		<tr>
-			<td width="300">Select Page Above</td>
-			<td>Fn&ndash;Up Arrow</td>
-		</tr>
-		<tr>
-			<td width="300">Select Page Below</td>
-			<td>Fn&ndash;Down Arrow</td>
-		</tr>
-		<tr>
-			<td width="300">In Layer List: Expand/Collapse All Nested Layers</td>
-			<td>Option&ndash;Click Expand Arrow</td>
-		</tr>
-		<tr>
-			<td width="300">Move Object while Drawing It</td>
-			<td>Hold Spacebar while Drawing</td>
-		</tr>
-		<tr>
-			<td width="300">Align Multiple Layers to Artboard (Not Each Other)</td>
-			<td>Option&ndash;Click Align Button</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Arranging Layers (Front to Back)</td>
-		</tr>
-		<tr>
-			<td width="300">Bring Forward (One Layer)</td>
-			<td>Cmd&ndash;]</td>
-		</tr>
-		<tr>
-			<td width="300">Send Backward (One Layer)</td>
-			<td>Cmd&ndash;[</td>
-		</tr>
-		<tr>
-			<td width="300">Bring to Front</td>
-			<td>Cmd&ndash;Option&ndash;]</td>
-		</tr>
-		<tr>
-			<td width="300">Send to Back</td>
-			<td>Cmd&ndash;Option&ndash;[</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Duplicating &amp; Transforming Layers (Objects)</td>
-		</tr>
-		<tr>
-			<td width="300">Duplicate</td>
-			<td>Option&ndash;Drag (or Cmd&ndash;D to duplicate in place)</td>
-		</tr>
-		<tr>
-			<td width="300">Step &amp; Repeat</td>
-			<td>Option&ndash;Drag the first copy, then hit Cmd&ndash;D</td>
-		</tr>
-		<tr>
-			<td width="300">Scale</td>
-			<td>Cmd&ndash;K</td>
-		</tr>
-		<tr>
-			<td width="300">Transform</td>
-			<td>Cmd&ndash;Shift&ndash;T</td>
-		</tr>
-		<tr>
-			<td width="300">Rotate</td>
-			<td>Cmd&ndash;Shift&ndash;R (or Cmd&ndash;Drag a Resize Handle)</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Resize Layer (Object)</td>
-		</tr>
-		<tr>
-			<td width="300">Change Width/Height by 1px</td>
-			<td>Cmd&ndash;Arrow (Up, Down, Left, Right)</td>
-		</tr>
-		<tr>
-			<td width="300">Change Width/Height by 10px</td>
-			<td>Cmd&ndash;Shift&ndash;Arrow (Up, Down, Left, Right)</td>
-		</tr>
-		<tr>
-			<td width="300">Resize from Center</td>
-			<td>Option&ndash;Drag Resize Handle</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Measuring Distances Between Elements</td>
-		</tr>
-		<tr>
-			<td width="300">Show Distance from Selected Layer to Other Layers or Artboard</td>
-			<td>Hold Option</td>
-		</tr>
-		<tr>
-			<td width="300">Show Distance from Selected Layer to Baseline or Cap Height of a Text Layer</td>
-			<td>Hold&nbsp;Option&ndash;Ctrl</td>
-		</tr>
-		<tr>
-			<td width="300">Show Distances Within a Selected Group</td>
-			<td>Hold Cmd&ndash;Option</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Combining Shapes</td>
-		</tr>
-		<tr>
-			<td width="300">Union</td>
-			<td>Cmd&ndash;Option&ndash;U</td>
-		</tr>
-		<tr>
-			<td width="300">Subtract</td>
-			<td>Cmd&ndash;Option&ndash;S</td>
-		</tr>
-		<tr>
-			<td width="300">Intersect</td>
-			<td>Cmd&ndash;Option&ndash;I</td>
-		</tr>
-		<tr>
-			<td width="300">Difference</td>
-			<td>Cmd&ndash;Option&ndash;X</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">Vector Editing</td>
-		</tr>
-		<tr>
-			<td width="300">Start Editing Selected Vector Object</td>
-			<td>Return</td>
-		</tr>
-		<tr>
-			<td width="300">Stop Editing Selected Vector Object</td>
-			<td>Esc</td>
-		</tr>
-		<tr>
-			<td width="300">Show All Handles</td>
-			<td>Option</td>
-		</tr>
-		<tr>
-			<td width="300">Change Selected Vector Point Mode to Straight</td>
-			<td>1</td>
-		</tr>
-		<tr>
-			<td width="300">Change Selected Vector Point Mode to Mirrored</td>
-			<td>2</td>
-		</tr>
-		<tr>
-			<td width="300">Change Selected Vector Point Mode to Disconnected</td>
-			<td>3</td>
-		</tr>
-		<tr>
-			<td width="300">Change Selected Vector Point Mode to Asymmetric</td>
-			<td>4</td>
-		</tr>
-		<tr>
-			<td width="300">Select the Next Vector Point on a Path</td>
-			<td>Tab</td>
-		</tr>
-		<tr>
-			<td width="300">Select the Previous Vector Point on a Path</td>
-			<td>Shift&ndash;Tab</td>
-		</tr>
-		<tr>
-			<td width="300">Insert Vector Point Mid-way Between Two Points</td>
-			<td>Shift&ndash;Click Path</td>
-		</tr>
-		<tr>
-			<td class="reference-head" colspan="2">MISCELLANEOUS</td>
-		</tr>
-		<tr>
-			<td width="300">Edit the Selected Symbol (Go to its Master Definition)</td>
-			<td>Return</td>
-		</tr>
-		<tr>
-			<td width="300">Draw Shape from Center Point</td>
-			<td>Option&ndash;Drag</td>
-		</tr>
-		<tr>
-			<td width="300">Export</td>
-			<td>Cmd&ndash;Shift&ndash;E</td>
-		</tr>
-		<tr>
-			<td width="300">Export Individual Layer</td>
-			<td>Cmd&ndash;E</td>
-		</tr>
-		<tr>
-			<td width="300">Quick Export</td>
-			<td>Drag Layer (from Layer List) outside Sketch window (onto Desktop)</td>
-		</tr>
-		<tr>
-			<td width="300">Ignore Smart Guides</td>
-			<td>Hold Cmd while Dragging</td>
-		</tr>
-	</tbody>
-</table>
+<div class="reference">
+	<div class="reference-head">Insert</div>
+		<div class="row">
+			<p class="command">A</p>
+			<p class="commandcopy">Artboard</p>
+		</div>
+		<div class="row">
+			<p class="command">S</p>
+			<p class="commandcopy">Slice</p>
+		</div>
+		<div class="row">
+			<p class="command">T</p>
+			<p class="commandcopy">Text</p>
+		</div>
+		<div class="row">
+			<p class="command">L</p>
+			<p class="commandcopy">Line</p>
+		</div>
+		<div class="row">
+			<p class="command">R</p>
+			<p class="commandcopy">Rectangle</p>
+		</div>
+		<div class="row">
+			<p class="command">O</p>
+			<p class="commandcopy">Oval</p>
+		</div>
+		<div class="row">
+			<p class="command">U</p>
+			<p class="commandcopy">Rounded Rectangle</p>
+		</div>
+		<div class="row">
+			<p class="command">V</p>
+			<p class="commandcopy">Vector</p>
+		</div>
+		<div class="row">
+			<p class="command">P</p>
+			<p class="commandcopy">Pencil</p>
+		</div>
+</div>
+
+<div class="reference">
+	<div class="reference-head">Zoom &amp; Viewing Canvas</div>
+		<div class="row">
+			<p class="command"">Zoom In</p>
+			<p class="commandcopy">Cmd&ndash;Plus(+)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Zoom Out</p>
+			<p class="commandcopy">Cmd&ndash;Minus(&ndash;)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Zoom In</p>
+			<p class="commandcopy">Hold Z &amp; Click (or Drag a box to zoom into an area)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Zoom Out</p>
+			<p class="commandcopy">Hold Option&ndash;Z &amp; Click</p>
+		</div>
+		<div class="row">
+			<p class="command"">Zoom to Actual Size (100%)</p>
+			<p class="commandcopy">Cmd&ndash;0</p>
+		</div>
+		<div class="row">
+			<p class="command"">Temporary Zoom to Actual Size (100%)</p>
+			<p class="commandcopy">U.S. Keyboard: Hold Shift&ndash;Tilde(~)<brp>
+			International Keyboard: Hold &sect;</div>
+		</tr>
+		<div class="row">
+			<p class="command"">Zoom to Fit Canvas</p>
+			<p class="commandcopy">Cmd&ndash;1</p>
+		</div>
+		<div class="row">
+			<p class="command"">Zoom to Selection</p>
+			<p class="commandcopy">Cmd&ndash;2</p>
+		</div>
+		<div class="row">
+			<p class="command"">Center Selection (on the Screen)</p>
+			<p class="commandcopy">Cmd&ndash;3</p>
+		</div>
+		<div class="reference-head">Interface &amp; Viewing Options</div>
+		<div class="row">
+			<p class="command"">Scroll Around Canvas (Hand tool)</p>
+			<p class="commandcopy">Hold Spacebar &amp; Drag on Canvas</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Layer List (panel on left of window)</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; 1</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Inspector (panel on right of window)</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; 2</p>
+		</div>
+		<div class="row">
+			<p class="command"">Hide Interface</p>
+			<p class="commandcopy">Cmd&ndash;Period(.)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Toolbar</p>
+			<p class="commandcopy">Cmd&ndash;Option&ndash;T</p>
+		</div>
+		<div class="row">
+			<p class="command"">Focus on the First Input Field in Inspector panel</p>
+			<p class="commandcopy">Option&ndash;Tab</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Rulers</p>
+			<p class="commandcopy">Ctrl&ndash;R</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Layout (Column Grid)</p>
+			<p class="commandcopy">Ctrl&ndash;L</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Grid</p>
+			<p class="commandcopy">Ctrl&ndash;G</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Pixels on Zoom</p>
+			<p class="commandcopy">Ctrl&ndash;P</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show/Hide Pixel Grid on Zoom</p>
+			<p class="commandcopy">Ctrl&ndash;X</p>
+		</div>
+		<div class="row">
+			<p class="command"">Fullscreen Mode</p>
+			<p class="commandcopy">Cmd&ndash;Ctrl&ndash;F</p>
+		</div>
+		<div class="row">
+			<p class="command"">Switch between Windows/Files</p>
+			<p class="commandcopy">Cmd&ndash;Tilde(~)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Inspector Fields: Increase or Decrease by 1</p>
+			<p class="commandcopy">Up or Down Arrow</p>
+		</div>
+		<div class="row">
+			<p class="command"">Inspector Fields: Increase or Decrease by 10</p>
+			<p class="commandcopy">Shift&ndash;Up or Down Arrow</p>
+		</div>
+		<div class="row">
+			<p class="command"">Inspector Fields: Increase or Decrease by 0.1</p>
+			<p class="commandcopy">Option&ndash;Up or Down Arrow</p>
+		</div>
+		<div class="reference-head">Type</div>
+		<div class="row">
+			<p class="command"">Start Editing Selected Text</p>
+			<p class="commandcopy">Return</p>
+		</div>
+		<div class="row">
+			<p class="command"">Stop Editing Selected Text</p>
+			<p class="commandcopy">Esc</p>
+		</div>
+		<div class="row">
+			<p class="command"">Make Type Bigger (Increase Font Size)</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; Plus(+)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Make Type Smaller (Decrease Font Size)</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; Minus(&ndash;)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Loosen Kerning/Tracking (Increase Character Spacing)</p>
+			<p class="commandcopy">Ctrl &ndash; Option &ndash; L</p>
+		</div>
+		<div class="row">
+			<p class="command"">Tighten Kerning/Tracking (Decrease Character Spacing)</p>
+			<p class="commandcopy">Ctrl&ndash;Option&ndash;T</p>
+		</div>
+		<div class="row">
+			<p class="command"">Change Font (Open Font Menu)</p>
+			<p class="commandcopy">Cmt&ndash;T</p>
+		</div>
+		<div class="row">
+			<p class="command"">Align Left</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;{</p>
+		</div>
+		<div class="row">
+			<p class="command"">Align Right</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;}</p>
+		</div>
+		<div class="row">
+			<p class="command"">Align Center</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;Pipe(|)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Bold</p>
+			<p class="commandcopy">Cmd&ndash;B</p>
+		</div>
+		<div class="row">
+			<p class="command"">Italic</p>
+			<p class="commandcopy">Cmd&ndash;I</p>
+		</div>
+		<div class="row">
+			<p class="command"">Underline</p>
+			<p class="commandcopy">Cmd&ndash;U</p>
+		</div>
+		<div class="row">
+			<p class="command"">Convert Text to Outlines</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;O</p>
+		</div>
+		<div class="row">
+			<p class="command"">Open Emoji &amp; Symbols (Special Characters) Panel</p>
+			<p class="commandcopy">Cmd&ndash;Ctrl&ndash;Space</p>
+		</div>
+		<div class="reference-head">Styling Layers (Objects)</div>
+		<div class="row">
+			<p class="command"">Copy Style</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; C</p>
+		</div>
+		<div class="row">
+			<p class="command"">Paste Style</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; V</p>
+		</div>
+		<div class="row">
+			<p class="command"">Sync Shared Style</p>
+			<p class="commandcopy">Ctrl &ndash; S</p>
+		</div>
+		<div class="row">
+			<p class="command"">Reset Shared Style</p>
+			<p class="commandcopy">Ctrl&ndash;Option&ndash;S</p>
+		</div>
+		<div class="row">
+			<p class="command"">Remove Fills, Borders, or Shadows</p>
+			<p class="commandcopy">Drag Off the Inspector &amp; Release</p>
+		</div>
+		<div class="row">
+			<p class="command"">Toggle Fills On/Off</p>
+			<p class="commandcopy">F</p>
+		</div>
+		<div class="row">
+			<p class="command"">Toggle Borders On/Off</p>
+			<p class="commandcopy">B</p>
+		</div>
+		<div class="row">
+			<p class="command"">Pick Color</p>
+			<p class="commandcopy">Ctrl&ndash;C</p>
+		</div>
+		<div class="row">
+			<p class="command"">Change Layer Opacity</p>
+			<p class="commandcopy">1 to 9 (and 0 for 100%)</p>
+		</div>
+		<div class="reference-head">Layers (Objects), Groups, Artboards, &amp; Pages</div>
+		<div class="row">
+			<p class="command"">Directly Select a Layer in a Group</p>
+			<p class="commandcopy">Cmd &ndash; Click Layer in Canvas</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select Layer under the Topmost Object</p>
+			<p class="commandcopy">Hold Option, Mouse Over, &amp; Click</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select Only Layers that Lie Entirely within the Selection Rectangle</p>
+			<p class="commandcopy">Option&ndash;Drag</p>
+		</div>
+		<div class="row">
+			<p class="command"">Move Selected Item without Selecting Item Above</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; Drag Selected Item</p>
+		</div>
+		<div class="row">
+			<p class="command"">Hide/Show Layer</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;H</p>
+		</div>
+		<div class="row">
+			<p class="command"">Lock/Unlock Layer</p>
+			<p class="commandcopy">Cmd &ndash; Shift &ndash; L</p>
+		</div>
+		<div class="row">
+			<p class="command"">Lock/Unlock Layer</p>
+			<p class="commandcopy">Mouse over Layer List, Hold Option, &amp; Click Lock</p>
+		</div>
+		<div class="row">
+			<p class="command"">Rename Selected Layer/Artboard</p>
+			<p class="commandcopy">Cmd&ndash;R</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select Layer Below (in current group)</p>
+			<p class="commandcopy">Tab</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select Layer Above (in current group)</p>
+			<p class="commandcopy">Shift&ndash;Tab</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select Parent Artboard</p>
+			<p class="commandcopy">Esc (hit again to selection nothing)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Filter in Layer List (Find a Layer by Name)</p>
+			<p class="commandcopy">Cmd &ndash; F</p>
+		</div>
+		<div class="row">
+			<p class="command"">Use Layer as Mask</p>
+			<p class="commandcopy">Cmd &ndash; Ctrl &ndash; M</p>
+		</div>
+		<div class="row">
+			<p class="command"">Group Layers</p>
+			<p class="commandcopy">Cmd&ndash;G</p>
+		</div>
+		<div class="row">
+			<p class="command"">Ungroup Layers</p>
+			<p class="commandcopy">Cmd &ndash; Shift &ndash; G</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select Page Above</p>
+			<p class="commandcopy">Fn&ndash;Up Arrow</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select Page Below</p>
+			<p class="commandcopy">Fn&ndash;Down Arrow</p>
+		</div>
+		<div class="row">
+			<p class="command"">In Layer List: Expand/Collapse All Nested Layers</p>
+			<p class="commandcopy">Option &ndash; Click Expand Arrow</p>
+		</div>
+		<div class="row">
+			<p class="command"">Move Object while Drawing It</p>
+			<p class="commandcopy">Hold Spacebar while Drawing</p>
+		</div>
+		<div class="row">
+			<p class="command"">Align Multiple Layers to Artboard (Not Each Other)</p>
+			<p class="commandcopy">Option &ndash; Click Align Button</p>
+		</div>
+		<div class="reference-head">Arranging Layers (Front to Back)</div>
+		<div class="row">
+			<p class="command"">Bring Forward (One Layer)</p>
+			<p class="commandcopy">Cmd&ndash;]</p>
+		</div>
+		<div class="row">
+			<p class="command"">Send Backward (One Layer)</p>
+			<p class="commandcopy">Cmd&ndash;[</p>
+		</div>
+		<div class="row">
+			<p class="command"">Bring to Front</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; ]</p>
+		</div>
+		<div class="row">
+			<p class="command"">Send to Back</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; [</p>
+		</div>
+		<div class="reference-head">Duplicating &amp; Transforming Layers (Objects)</div>
+		<div class="row">
+			<p class="command"">Duplicate</p>
+			<p class="commandcopy">Option&ndash;Drag (or Cmd&ndash;D to duplicate in place)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Step &amp; Repeat</p>
+			<p class="commandcopy">Option&ndash;Drag the first copy, then hit Cmd&ndash;D</p>
+		</div>
+		<div class="row">
+			<p class="command"">Scale</p>
+			<p class="commandcopy">Cmd&ndash;K</p>
+		</div>
+		<div class="row">
+			<p class="command"">Transform</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;T</p>
+		</div>
+		<div class="row">
+			<p class="command"">Rotate</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;R (or Cmd&ndash;Drag a Resize Handle)</p>
+		</div>
+		<div class="reference-head">Resize Layer (Object)</div>
+		<div class="row">
+			<p class="command"">Change Width/Height by 1px</p>
+			<p class="commandcopy">Cmd&ndash;Arrow (Up, Down, Left, Right)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Change Width/Height by 10px</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;Arrow (Up, Down, Left, Right)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Resize from Center</p>
+			<p class="commandcopy">Option&ndash;Drag Resize Handle</p>
+		</div>
+		<div class="reference-head">Measuring Distances Between Elements</div>
+		<div class="row">
+			<p class="command"">Show Distance from Selected Layer to Other Layers or Artboard</p>
+			<p class="commandcopy">Hold Option</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show Distance from Selected Layer to Baseline or Cap Height of a Text Layer</p>
+			<p class="commandcopy">Hold &nbsp; Option &ndash; Ctrl</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show Distances Within a Selected Group</p>
+			<p class="commandcopy">Hold Cmd &ndash; Option</p>
+		</div>
+		<div class="reference-head">Combining Shapes</div>
+		<div class="row">
+			<p class="command"">Union</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; U</p>
+		</div>
+		<div class="row">
+			<p class="command"">Subtract</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; S</p>
+		</div>
+		<div class="row">
+			<p class="command"">Intersect</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; I</p>
+		</div>
+		<div class="row">
+			<p class="command"">Difference</p>
+			<p class="commandcopy">Cmd &ndash; Option &ndash; X</p>
+		</div>
+		<div class="reference-head">Vector Editing</div>
+		<div class="row">
+			<p class="command"">Start Editing Selected Vector Object</p>
+			<p class="commandcopy">Return</p>
+		</div>
+		<div class="row">
+			<p class="command"">Stop Editing Selected Vector Object</p>
+			<p class="commandcopy">Esc</p>
+		</div>
+		<div class="row">
+			<p class="command"">Show All Handles</p>
+			<p class="commandcopy">Option</p>
+		</div>
+		<div class="row">
+			<p class="command"">Change Selected Vector Point Mode to Straight</p>
+			<p class="commandcopy">1</p>
+		</div>
+		<div class="row">
+			<p class="command"">Change Selected Vector Point Mode to Mirrored</p>
+			<p class="commandcopy">2</p>
+		</div>
+		<div class="row">
+			<p class="command"">Change Selected Vector Point Mode to Disconnected</p>
+			<p class="commandcopy">3</p>
+		</div>
+		<div class="row">
+			<p class="command"">Change Selected Vector Point Mode to Asymmetric</p>
+			<p class="commandcopy">4</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select the Next Vector Point on a Path</p>
+			<p class="commandcopy">Tab</p>
+		</div>
+		<div class="row">
+			<p class="command"">Select the Previous Vector Point on a Path</p>
+			<p class="commandcopy">Shift&ndash;Tab</p>
+		</div>
+		<div class="row">
+			<p class="command"">Insert Vector Point Mid-way Between Two Points</p>
+			<p class="commandcopy">Shift &ndash; Click Path</p>
+		</div>
+		<div class="reference-head">MISCELLANEOUS</div>
+		<div class="row">
+			<p class="command"">Edit the Selected Symbol (Go to its Master Definition)</p>
+			<p class="commandcopy">Return</p>
+		</div>
+		<div class="row">
+			<p class="command"">Draw Shape from Center Point</p>
+			<p class="commandcopy">Option&ndash;Drag</p>
+		</div>
+		<div class="row">
+			<p class="command"">Export</p>
+			<p class="commandcopy">Cmd&ndash;Shift&ndash;E</p>
+		</div>
+		<div class="row">
+			<p class="command"">Export Individual Layer</p>
+			<p class="commandcopy">Cmd&ndash;E</p>
+		</div>
+		<div class="row">
+			<p class="command"">Quick Export</p>
+			<p class="commandcopy">Drag Layer (from Layer List) outside Sketch window (onto Desktop)</p>
+		</div>
+		<div class="row">
+			<p class="command"">Ignore Smart Guides</p>
+			<p class="commandcopy">Hold Cmd while Dragging</p>
+		</div>
+</div>
 
 	</div>
 

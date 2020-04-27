@@ -1,0 +1,15 @@
+{
+    "name": "Sketch",
+    "package": "sketch",
+    "index": "./shortcuts/sketch/mac.html",
+    "selectors": {
+        ".reference-head": "Section",
+        ".command": "Command"
+    },
+    "ignore": [
+        "ABOUT"
+    ],
+    "icon32x32": "./ui.png",
+    "allowJS": true,
+    "ExternalURL": "https://www.sketch.com/docs/"
+}
