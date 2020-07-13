@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /app
+Disallow: /blacklist
+Disallow: /team
+Disallow: /internal
+Disallow: /s
+Disallow: /documents
+Disallow: /team
+Disallow: /settings
+Disallow: /event
+Sitemap: sitemap.xml

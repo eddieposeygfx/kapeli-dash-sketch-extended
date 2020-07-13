@@ -1,15 +1,15 @@
 {
     "name": "Sketch",
     "package": "sketch",
-    "index": "./shortcuts/sketch/mac.html",
+    "index": "./www.sketch.com/docs/index.html",
     "selectors": {
-        ".reference-head": "Section",
-        ".command": "Command"
+        ".toc-section-topic": "Guide",
+        "h2": "Section"
     },
     "ignore": [
         "ABOUT"
     ],
-    "icon32x32": "./ui.png",
+    "icon32x32": "./iu.png",
     "allowJS": true,
-    "ExternalURL": "https://www.nobledesktop.com/shortcuts/sketch/mac"
+    "ExternalURL": "https://www.sketch.com/docs/"
 }

@@ -13,7 +13,7 @@
 	<key>DashDocSetFamily</key>
 	<string>dashtoc</string>
 	<key>dashIndexFilePath</key>
-	<string>./shortcuts/sketch/mac.html</string>
+	<string>./www.sketch.com/docs/index.html</string>
 	<key>isJavaScriptEnabled</key><true/>
 	<key>DashDocSetFallbackURL</key>
 	<string>https://www.sketch.com/docs/</string>
